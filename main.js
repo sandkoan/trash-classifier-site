@@ -53,7 +53,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
             r[k] = a[j];
     return r;
 };
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var tf = require("@tensorflow/tfjs-node");
 var fs_1 = require("fs");
 var ImageModel = /** @class */ (function () {
@@ -166,3 +166,4 @@ function classify() {
     console.log(imgPath);
     // main(imgPath);
 }
+//# sourceMappingURL=main.js.map
